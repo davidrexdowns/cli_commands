@@ -1,2 +1,2 @@
 # cli_commands
-These are lists of commands for various tasks.
+This repository contains lists of commands related to various networking tasks.
