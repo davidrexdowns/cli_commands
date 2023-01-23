@@ -1,0 +1,4 @@
+conf t
+int gig0
+ip address 192.168.1.10 255.255.255.0
+no shut

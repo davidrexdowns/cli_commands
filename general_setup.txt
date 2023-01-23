@@ -1,0 +1,12 @@
+conf t
+hostname expensive_thing
+no ip domain-lookup
+enable secret potato
+line con 0
+privi level 15
+no exec-timeout
+logging sync
+
+
+conf t
+banner motd "something to say"

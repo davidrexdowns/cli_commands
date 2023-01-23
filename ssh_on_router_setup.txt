@@ -1,0 +1,9 @@
+conf t
+username david priv 15 secret potato
+ip domain-name instruct.network
+ip ssh ver 2
+crypto key generate rsa modulus 2048
+line vty 0 4
+login local
+transport input ssh
+end
